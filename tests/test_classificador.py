@@ -6,7 +6,7 @@ class TestClassificarNumero(unittest.TestCase):
         self.assertEqual(classificar_numero(10), "Positivo")
 
     def test_numero_negativo(self):
-        self.assertEqual(classificar_numero(-1), "Negativo")
+        self.assertEqual(classificar_numero(1), "Negativo")
 
     def test_numero_zero(self):
         self.assertEqual(classificar_numero(0), "Zero")
